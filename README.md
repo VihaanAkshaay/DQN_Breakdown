@@ -39,7 +39,7 @@ There are 3 different experiments conducted. Each of these are organised into th
 Please read the report to understand the experiments in detail.
 
 **DQN_Main** - \
-8 Variations(\pm Q \pm E \pm T) on 3 environments.\
+8 Variations(±Q,±E,±T) on 3 environments.\
 Each environment has its code in seperate directories. (DQN_<gym_env>)\
 
 **DQN_QTargets** - \
@@ -51,7 +51,7 @@ This experiment has 10 variations. [(10k,64),(10k,32),(5k,64),(5k,32),(1,1) wher
 Although the results are only present for Acrobot Environment, the code for all the environments is available in the directory for conducting similar experiments.
 
 **DQN_Truncation** - \
-This experiment has 4 variations. Different levels of truncation on the gradient generated for updating the main QNetwork was experimented with(T1 = \pm1, T2 = \pm5, T3 = \pm10, T4 = \pm20)\
+This experiment has 4 variations. Different levels of truncation on the gradient generated for updating the main QNetwork was experimented with(T1 = ±1, T2 = ±5, T3 = ±10, T4 = ±20)\
 Although the results are only present for Acrobot Environment, the code for all the environments is available in the directory for conducting similar experiments.
 
 ## Results
